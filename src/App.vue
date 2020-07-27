@@ -8,6 +8,7 @@
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
 import axios from "axios";
+// import jsonp from "jsonp";
 
 export default {
   name: "App",
@@ -15,9 +16,10 @@ export default {
     HelloWorld,
   },
   mounted() {
-    let url =
-      "https://www.easy-mock.com/mock/5f1e8ecc8de7bf79f0a62133/example/mock";
+    let url = "https://www.easy-mock.com/mock/5f1e8ecc8de7bf79f0a62133/example/mock";
+    // let url = "https://www.imooc.com/activity/newcomer";
     axios.get(url).then(() => {})
+    // jsonp(url, () => {})
   },
 };
 </script>
