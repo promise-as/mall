@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <roter-view></roter-view>
+    <!-- <roter-view></roter-view> -->
   </div>
 </template>
 
