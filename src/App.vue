@@ -1,25 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <roter-view></roter-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-import axios from "axios";
-// import jsonp from "jsonp";
-
 export default {
   name: "App",
   components: {
-    HelloWorld,
+  },
+  data(){
+    return {
+      
+    }
   },
   mounted() {
-    let url = "https://www.easy-mock.com/mock/5f1e8ecc8de7bf79f0a62133/example/mock";
-    // let url = "https://www.imooc.com/activity/newcomer";
-    axios.get(url).then(() => {})
-    // jsonp(url, () => {})
+   
   },
 };
 </script>
